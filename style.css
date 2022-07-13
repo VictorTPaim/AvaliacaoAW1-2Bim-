@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #3b3b3b;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px black;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.caixa{
+    height: 10vh;
+    width: 23.4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    transition: all 0.5s;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.caixa1{
+    border: 2px solid #bba14f;
+    color:white
+}
+
+.caixa2{
+    border: 2px groove #09d145;
+    color:white
+}
+
+.caixa3{
+    border: 2px dotted #00bda4;
+    color:white
+}
+
+
+.caixa:hover{
+    box-shadow: 2px 2px 3px black;
+    transition: all 0.5s;
+    color: rgb(0, 0, 0);
+    border-color: black;
+}
+
+.caixa1:hover{
+    background-color: #bba14f;
+}
+
+.caixa2:hover{
+    background-color: #09d145;
+}
+
+.caixa3:hover{
+    background-color: #00bda4;
+}
+
+.imagem{
+    width: 70%;
+}
+
+.jogos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    margin-top: 2%;
+    color:#818181
+}
+
+.jogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid #bba14f;
+    padding: 2%;
+    transition: all 0.5s;
+}
+
+.jogo:hover{
+    transition: all 0.5s;
+    transform: scale(1.05);
+}
+
+.jogo p{
+    text-align: justify;
+}
+
+#crash{
+    border-style: dashed;
+}
+
+#crash:hover{
+    border-color: #cd3618;
+    color: #cd3618;
+    box-shadow: 2px 2px 3px #cd3618;
+}
+
+#cuphead{
+    border-style: dotted;
+}
+
+#cuphead:hover{
+    border-color: #d11010;
+    color: #016992;
+    box-shadow: 2px 2px 3px #ff0000;
+}
+
+#forza{
+    border-style: double;
+}
+
+#forza:hover{
+    border-color: #9b0202;
+    color: #9b0202;
+    box-shadow: 2px 2px 3px #9b0202;
+}
+
+#infamous{
+    border-style: dashed;
+}
+
+#infamous:hover{
+    border-color:#4da2ce;
+    color: #ff0000;
+    box-shadow: 2px 2px 3px #002fff;
+}
+
+#fall{
+    border-style: dotted;
+}
+
+#fall:hover{
+    border-color:#f5327d;
+    color: #5af0fe;
+    box-shadow: 2px 2px 3px #cc00ff;
+}
+
+#dbz{
+    border-style: double;
+}
+
+#dbz:hover{
+    border-color:#ff5e00;
+    color: #f78327;
+    box-shadow: 2px 2px 3px #ff5e00;
+}
